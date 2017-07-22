@@ -27,11 +27,32 @@ html, body, .fullscreen {
      background-color: #cccccc;
 }
 .fullscreen.page2 {
-  background-color: #cccccc;
 
-    background-image: url("https://media.giphy.com/media/S4X0Qour9ZfB6/giphy.gif");
-    background-size: 80px 60px;
+  background-color: #B9F3C7;
+
+    background-image: url("200w-1.gif");
+    background-size: 400px 400px;
   background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
+}
+.fullscreen.page3 {
+  background-color: #F6C2EF;
+
+  background-image: url("200w.gif");
+  background size: 800px 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
+}
+.fullscreen.page4 {
+  background-color: #F6E1C2;
+
+  background-image: url("200-21.gif");
+  background size: 800px 800px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+
 }
