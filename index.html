@@ -286,6 +286,7 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
 
 $(document).ready(function() {
+  var audio;
     $(document).scrollsnap({
       snaps: '.fullscreen',
       proximity: $(window).height() / 2,
@@ -293,14 +294,40 @@ $(document).ready(function() {
       duration: 300,
       onSnap: function() {
         if ($('.page1').visible(true)) {
-          var audio = new Audio('audio_file.mp3');
+          audio.pause();
+          audio = new Audio('love.mp3');
 audio.play();
         } else if ($('.page2').visible(true)) {
-          var audio = new Audio('audio_file.mp3');
+          audio.pause();
+          audio = new Audio('collar.mp3');
 audio.play();
-        }
+        }else if ($('.page3').visible(true)) {
+          audio.pause();
+          audio = new Audio('cudi.mp3');
+audio.play();
+}else if ($('.page4').visible(true)) {
+  audio.pause();
+  audio = new Audio('as.mp3');
+
+        }else if ($('.page4').visible(true)) {
+          audio.pause();
+          audio = new Audio('as.mp3');
+
+                }
+                else if ($('.page4').visible(true)) {
+                  audio.pause();
+                  audio = new Audio('as.mp3');
+
+                        }
+                        else if ($('.page4').visible(true)) {
+                          audio.pause();
+                          audio = new Audio('as.mp3');
+
+                                }
        }
     });
+    var audio = new Audio('love.mp3');
+audio.play();
   });
   </script>
 </head>
@@ -313,4 +340,12 @@ audio.play();
     </center>
   </div>
   <div class="fullscreen page2">
+</div>
+
+</div>
+<div class="fullscreen page3">
+</div>
+
+</div>
+<div class="fullscreen page4">
 </div>
