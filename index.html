@@ -286,7 +286,8 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
 
 $(document).ready(function() {
-  var audio;
+  var audio = new Audio('love.mp3');
+audio.play();
     $(document).scrollsnap({
       snaps: '.fullscreen',
       proximity: $(window).height() / 2,
@@ -310,8 +311,7 @@ audio.play();
   audio = new Audio('as.mp3');
        }
     }
-var audio = new Audio('love.mp3');
-audio.play();
+
   });
   });
   </script>
